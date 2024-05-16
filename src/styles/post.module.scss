@@ -1,0 +1,41 @@
+.article {
+    padding: 20px 10px;
+
+    .header {
+        margin-bottom: 20px;
+
+        h1 {
+            margin-bottom: 5px;
+        }
+
+        time {
+            font-size: 0.8rem;
+            color: #666;
+            margin-bottom: 10px;
+            display: block;
+        }
+    }
+
+    .markdown {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        ul {
+            width: 100%;
+            padding-left: 1em;
+
+            li {
+                line-height: 1.5;
+            }
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        p {
+            line-height: 1.3;
+        }
+    }
+}

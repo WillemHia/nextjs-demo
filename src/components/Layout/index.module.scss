@@ -1,0 +1,30 @@
+.container {
+    width: 30rem;
+    padding: 0 0.6rem;
+    height: 4rem;
+    border-bottom: 1px solid #cdcdcd;
+    position: fixed;
+    inset: 0;
+    background-color: #fff;
+    margin: 0 auto;
+
+    h1 {
+        cursor: pointer;
+        color: var(--color-primary-400);
+    }
+
+    img {
+        cursor: pointer;
+        margin-left: 10px;
+    }
+}
+
+.content {
+    padding-bottom: 1rem;
+    padding-top: 4rem;
+    width: 30rem;
+    color: #252525;
+    background-color: var(--color-grey-50);
+    inset: 0;
+    margin: auto;
+}

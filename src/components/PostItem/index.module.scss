@@ -1,0 +1,27 @@
+.contaienr {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+
+    .image {
+        height: 250px;
+    }
+
+    .content {
+        padding: 0.6rem;
+
+        h2 {
+            margin-bottom: 5px;
+        }
+
+        time {
+            font-size: 0.8rem;
+            color: #666;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+    }
+}
